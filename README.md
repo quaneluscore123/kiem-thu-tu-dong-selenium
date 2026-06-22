@@ -36,6 +36,11 @@ Dự án thực thi chuỗi 03 kịch bản kiểm thử nối tiếp nhau, bao 
 
 ![Logout Complete](imgs/complete-logout.png)
 
+### Test thành công/Thất bại
+- Khi test thành công/thất bại sẽ trả kết quả về terminal của Intelij khi chạy file test.
+
+![Terminal](imgs/terminal-result.png)
+
 ## Các Kỹ thuật Nâng cao Đã Áp Dụng
 Để đảm bảo script chạy ổn định trên mọi môi trường và không bị lỗi Timeout/NoSuchElement, dự án đã áp dụng các kỹ thuật:
 1. **Explicit Wait (WebDriverWait):** Sử dụng `ExpectedConditions` để đợi thông minh cho đến khi các phần tử thực sự sẵn sàng (Clickable/Visible/Present) thay vì dùng `Thread.sleep()` cứng nhắc.
